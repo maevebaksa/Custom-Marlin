@@ -1,0 +1,62 @@
+{
+    "configurations": [
+        {
+            "name": "!!! WARNING !!! AUTO-GENERATED FILE, PLEASE DO NOT MODIFY IT AND USE https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags"
+        },
+        {
+            "name": "Win32",
+            "includePath": [
+                "c:/Users/marto/Desktop/Marlin/K280 - TMC - 4in1out/Marlin/Marlin",
+                "c:/Users/marto/Desktop/Marlin/K280 - TMC - 4in1out/Marlin/.pio/libdeps/LPC1769/TMCStepper/src",
+                "C:/Users/marto/.platformio/packages/framework-arduino-lpc176x/libraries/Servo/src",
+                "c:/Users/marto/Desktop/Marlin/K280 - TMC - 4in1out/Marlin/Marlin/src/HAL/LPC1768/include",
+                "c:/Users/marto/Desktop/Marlin/K280 - TMC - 4in1out/Marlin/Marlin/src/HAL/LPC1768/u8g",
+                "C:/Users/marto/.platformio/packages/framework-arduino-lpc176x/cores/arduino",
+                "C:/Users/marto/.platformio/packages/framework-arduino-lpc176x/system/CMSIS/include",
+                "C:/Users/marto/.platformio/packages/framework-arduino-lpc176x/system/CMSIS/lib",
+                "C:/Users/marto/.platformio/packages/framework-arduino-lpc176x/system/lpc176x",
+                "C:/Users/marto/.platformio/packages/tool-unity",
+                ""
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "path": [
+                    "c:/Users/marto/Desktop/Marlin/K280 - TMC - 4in1out/Marlin/Marlin",
+                    "c:/Users/marto/Desktop/Marlin/K280 - TMC - 4in1out/Marlin/.pio/libdeps/LPC1769/TMCStepper/src",
+                    "C:/Users/marto/.platformio/packages/framework-arduino-lpc176x/libraries/Servo/src",
+                    "c:/Users/marto/Desktop/Marlin/K280 - TMC - 4in1out/Marlin/Marlin/src/HAL/LPC1768/include",
+                    "c:/Users/marto/Desktop/Marlin/K280 - TMC - 4in1out/Marlin/Marlin/src/HAL/LPC1768/u8g",
+                    "C:/Users/marto/.platformio/packages/framework-arduino-lpc176x/cores/arduino",
+                    "C:/Users/marto/.platformio/packages/framework-arduino-lpc176x/system/CMSIS/include",
+                    "C:/Users/marto/.platformio/packages/framework-arduino-lpc176x/system/CMSIS/lib",
+                    "C:/Users/marto/.platformio/packages/framework-arduino-lpc176x/system/lpc176x",
+                    "C:/Users/marto/.platformio/packages/tool-unity",
+                    ""
+                ]
+            },
+            "defines": [
+                "LPC176X_FRAMEWORK",
+                "TARGET_LPC1768",
+                "F_CPU=120000000L",
+                "MCU_LPC1769",
+                "PIO_PLATFORM_VERSION=1003UL",
+                "PIO_FRAMEWORK_VERSION=2005UL",
+                "PLATFORMIO=50003",
+                "__MARLIN_FIRMWARE__",
+                "U8G_HAL_LINKS",
+                "ARDUINO_ARCH_LPC176X",
+                "ARDUINOLPC=10805",
+                ""
+            ],
+            "intelliSenseMode": "gcc-x64",
+            "cppStandard": "c++17",
+            "compilerPath": "C:/Users/marto/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc.exe",
+            "compilerArgs": [
+                "-mthumb",
+                "-mcpu=cortex-m3",
+                ""
+            ]
+        }
+    ],
+    "version": 4
+}

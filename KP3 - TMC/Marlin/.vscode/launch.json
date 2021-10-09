@@ -1,0 +1,36 @@
+// AUTOMATICALLY GENERATED FILE. PLEASE DO NOT MODIFY IT MANUALLY
+
+// PIO Unified Debugger
+//
+// Documentation: https://docs.platformio.org/page/plus/debugging.html
+// Configuration: https://docs.platformio.org/page/projectconf/section_env_debug.html
+
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "platformio-debug",
+            "request": "launch",
+            "name": "PIO Debug",
+            "executable": "c:/Users/marto/Desktop/Marlin/KP3 - TMC/Marlin/.pio/build/mks_robin_nano35/firmware.elf",
+            "projectEnvName": "mks_robin_nano35",
+            "toolchainBinDir": "C:/Users/marto/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin",
+            "svdPath": "C:/Users/marto/.platformio/platforms/ststm32/misc/svd/STM32F103xx.svd",
+            "preLaunchTask": {
+                "type": "PlatformIO",
+                "task": "Pre-Debug (mks_robin_nano35)"
+            },
+            "internalConsoleOptions": "openOnSessionStart"
+        },
+        {
+            "type": "platformio-debug",
+            "request": "launch",
+            "name": "PIO Debug (skip Pre-Debug)",
+            "executable": "c:/Users/marto/Desktop/Marlin/KP3 - TMC/Marlin/.pio/build/mks_robin_nano35/firmware.elf",
+            "projectEnvName": "mks_robin_nano35",
+            "toolchainBinDir": "C:/Users/marto/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin",
+            "svdPath": "C:/Users/marto/.platformio/platforms/ststm32/misc/svd/STM32F103xx.svd",
+            "internalConsoleOptions": "openOnSessionStart"
+        }
+    ]
+}
