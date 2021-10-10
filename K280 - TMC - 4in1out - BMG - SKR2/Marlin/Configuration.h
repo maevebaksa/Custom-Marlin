@@ -39,6 +39,8 @@
  */
 #define CONFIGURATION_H_VERSION 02000902
 
+//HOWEVER NOTE:: THIS IS JANKED TOGETHER WITH https://github.com/MarlinFirmware/Marlin/issues/22886
+
 //===========================================================================
 //============================= Getting Started =============================
 //===========================================================================
@@ -1030,7 +1032,7 @@
  * When changing speed and direction, if the difference is less than the
  * value set here, it may happen instantaneously.
  */
-#define CLASSIC_JERK
+//#define CLASSIC_JERK
 #if ENABLED(CLASSIC_JERK)
   #define DEFAULT_XJERK 5.0
   #define DEFAULT_YJERK DEFAULT_XJERK
