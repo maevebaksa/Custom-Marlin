@@ -25,7 +25,7 @@
 
 // If you have the BigTreeTech driver expansion module, enable BTT_MOTOR_EXPANSION
 // https://github.com/bigtreetech/BTT-Expansion-module/tree/master/BTT%20EXP-MOT
-#define BTT_MOTOR_EXPANSION
+//#define BTT_MOTOR_EXPANSION
 
 #if BOTH(HAS_WIRED_LCD, BTT_MOTOR_EXPANSION)
   #if EITHER(CR10_STOCKDISPLAY, ENDER2_STOCKDISPLAY)
@@ -362,7 +362,6 @@
    */
 
   // M1 on Driver Expansion Module
-  
   #define E2_STEP_PIN                EXP2_05_PIN
   #define E2_DIR_PIN                 EXP2_06_PIN
   #define E2_ENABLE_PIN              EXP2_04_PIN
@@ -374,7 +373,6 @@
       #define E2_SERIAL_RX_PIN       EXP1_05_PIN
     #endif
   #endif
-  
 
   // M2 on Driver Expansion Module
   #define E3_STEP_PIN                EXP2_08_PIN
@@ -485,7 +483,7 @@
 #endif // HAS_WIRED_LCD
 
 // Alter timing for graphical display
-#if ENABLED(U8GLIB_ST7920)
+#if IS_U8GLIB_ST7920
   #ifndef BOARD_ST7920_DELAY_1
     #define BOARD_ST7920_DELAY_1             120
   #endif

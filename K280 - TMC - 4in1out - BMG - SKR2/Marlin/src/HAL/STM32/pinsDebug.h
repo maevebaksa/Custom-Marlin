@@ -108,7 +108,7 @@ const XrefInfo pin_xref[] PROGMEM = {
 /**
  * Translation of routines & variables used by pinsDebug.h
  */
-#define NUMBER_PINS_TOTAL NUM_DIGITAL_PINS + NUM_ANALOG_INPUTS
+#define NUMBER_PINS_TOTAL NUM_DIGITAL_PINS
 #define VALID_PIN(ANUM) ((ANUM) >= 0 && (ANUM) < NUMBER_PINS_TOTAL)
 #define digitalRead_mod(Ard_num) extDigitalRead(Ard_num)  // must use Arduino pin numbers when doing reads
 #define PRINT_PIN(Q)
@@ -196,11 +196,9 @@ void port_print(const pin_t Ard_num) {
     SERIAL_ECHO_SP(7);
 
   // Print number to be used with M42
-  int calc_p = Ard_num%(NUM_DIGITAL_PINS+1);
-  if (Ard_num > NUM_DIGITAL_PINS && calc_p > 7) calc_p += 8;
-  sprintf_P(buffer, PSTR(" M42 P%d "), calc_p);
+  sprintf_P(buffer, PSTR(" M42 P%d "), Ard_num);
   SERIAL_ECHO(buffer);
-  if (calc_p < 10) SERIAL_CHAR(' ');
+  if (Ard_num < 10) SERIAL_CHAR(' ');
   if (Ard_num < 100) SERIAL_CHAR(' ');
 }
 
