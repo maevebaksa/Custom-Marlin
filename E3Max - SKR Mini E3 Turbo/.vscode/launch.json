@@ -12,25 +12,36 @@
             "type": "platformio-debug",
             "request": "launch",
             "name": "PIO Debug",
-            "executable": "C:/Users/marto/Desktop/K280 - TMC - 4in1out SKR/Marlin-2.0.9.2/.pio/build/BIGTREE_SKR_2/firmware.elf",
-            "projectEnvName": "BIGTREE_SKR_2",
+            "executable": "C:/Users/marto/Documents/GitHub/Custom-Marlin/E3Max - SKR Mini E3 Turbo/.pio/build/LPC1769/firmware.elf",
+            "projectEnvName": "LPC1769",
             "toolchainBinDir": "C:/Users/marto/.platformio/packages/toolchain-gccarmnoneeabi/bin",
             "internalConsoleOptions": "openOnSessionStart",
-            "svdPath": "C:/Users/marto/.platformio/platforms/ststm32/misc/svd/STM32F40x.svd",
+            "svdPath": "C:/Users/marto/.platformio/platforms/nxplpc-arduino-lpc176x/misc/svd/LPC176x5x_v0.2.svd",
             "preLaunchTask": {
                 "type": "PlatformIO",
-                "task": "Pre-Debug (BIGTREE_SKR_2)"
+                "task": "Pre-Debug (LPC1769)"
             }
         },
         {
             "type": "platformio-debug",
             "request": "launch",
             "name": "PIO Debug (skip Pre-Debug)",
-            "executable": "C:/Users/marto/Desktop/K280 - TMC - 4in1out SKR/Marlin-2.0.9.2/.pio/build/BIGTREE_SKR_2/firmware.elf",
-            "projectEnvName": "BIGTREE_SKR_2",
+            "executable": "C:/Users/marto/Documents/GitHub/Custom-Marlin/E3Max - SKR Mini E3 Turbo/.pio/build/LPC1769/firmware.elf",
+            "projectEnvName": "LPC1769",
             "toolchainBinDir": "C:/Users/marto/.platformio/packages/toolchain-gccarmnoneeabi/bin",
             "internalConsoleOptions": "openOnSessionStart",
-            "svdPath": "C:/Users/marto/.platformio/platforms/ststm32/misc/svd/STM32F40x.svd"
+            "svdPath": "C:/Users/marto/.platformio/platforms/nxplpc-arduino-lpc176x/misc/svd/LPC176x5x_v0.2.svd"
+        },
+        {
+            "type": "platformio-debug",
+            "request": "launch",
+            "name": "PIO Debug (without uploading)",
+            "executable": "C:/Users/marto/Documents/GitHub/Custom-Marlin/E3Max - SKR Mini E3 Turbo/.pio/build/LPC1769/firmware.elf",
+            "projectEnvName": "LPC1769",
+            "toolchainBinDir": "C:/Users/marto/.platformio/packages/toolchain-gccarmnoneeabi/bin",
+            "internalConsoleOptions": "openOnSessionStart",
+            "svdPath": "C:/Users/marto/.platformio/platforms/nxplpc-arduino-lpc176x/misc/svd/LPC176x5x_v0.2.svd",
+            "loadMode": "manual"
         }
     ]
 }
