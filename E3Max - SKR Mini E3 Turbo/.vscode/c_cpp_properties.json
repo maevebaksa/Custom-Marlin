@@ -43,7 +43,7 @@
                 "MCU_LPC1769",
                 "PIO_PLATFORM_VERSION=1003UL",
                 "PIO_FRAMEWORK_VERSION=2009UL",
-                "PLATFORMIO=50202",
+                "PLATFORMIO=50203",
                 "__MARLIN_FIRMWARE__",
                 "NDEBUG",
                 "U8G_HAL_LINKS",

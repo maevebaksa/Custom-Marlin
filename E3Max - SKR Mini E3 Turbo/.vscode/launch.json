@@ -19,7 +19,7 @@
             "svdPath": "C:/Users/marto/.platformio/platforms/nxplpc-arduino-lpc176x/misc/svd/LPC176x5x_v0.2.svd",
             "preLaunchTask": {
                 "type": "PlatformIO",
-                "task": "Pre-Debug (LPC1769)"
+                "task": "Pre-Debug"
             }
         },
         {
