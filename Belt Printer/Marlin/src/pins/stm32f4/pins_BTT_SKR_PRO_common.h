@@ -282,16 +282,16 @@
 #define HEATER_0_PIN                        PB1   // Heater0
 #define HEATER_1_PIN                        PD14  // Heater1
 #if TEMP_SENSOR_CHAMBER && HOTENDS < 3
-  #define HEATER_CHAMBER_PIN                PB0   // Heater2
+  #define HEATER_CHAMBER_PIN                PV8   // Heater2
 #else
-  #define HEATER_2_PIN                      PB0   // Heater2
+  #define HEATER_2_PIN                      PC8   // Heater2
 #endif
 #define HEATER_BED_PIN                      PD12  // Hotbed
 
 //
 // Fans
 //
-#define FAN_PIN                             PC8   // Fan0
+#define FAN_PIN                             PB0   // Fan0
 #define FAN1_PIN                            PE5   // Fan1
 
 #ifndef E0_AUTO_FAN_PIN
